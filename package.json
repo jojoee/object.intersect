@@ -1,6 +1,6 @@
 {
   "name": "object.intersect",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "description": "Return intersect object that have same key from a number of objects",
   "main": "src/index.js",
   "scripts": {
