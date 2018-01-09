@@ -32,14 +32,5 @@ intersect(obj1, obj2) // { a: 'a', b: 'b', c: 'c' }
 intersect(obj1, obj3, obj2) // { a: 'a', c: 'c' }
 ```
 
-## Contribute for owner
-
-```
-$ npm install -g semantic-release-cli
-$ semantic-release-cli setup
-
-Using above command to setup "semantic-release"
-```
-
 ## Reference
 - [PHP: array_intersect_key - Manual](http://php.net/manual/en/function.array-intersect-key.php)
