@@ -26,7 +26,7 @@ intersect(null) // {}
 intersect(undefined) // {}
 
 const obj1 = { a: 'a', b: 'b', c: 'c' }
-const obj1 = { a: 'a', b: 'x', c: 'c' }
+const obj2 = { a: 'a', b: 'x', c: 'c' }
 const obj3 = { a: 'a', c: 'c' } // subset of obj
 intersect(obj1, obj2) // { a: 'a', b: 'b', c: 'c' }
 intersect(obj1, obj3, obj2) // { a: 'a', c: 'c' }
